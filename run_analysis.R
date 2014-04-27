@@ -58,14 +58,19 @@ test_X         <- read.table("test/X_test.txt")
 # Read Features
 features       <- read.table("features.txt")
 
+# Read Activity Labels
+activities     <- read.table("activity_labels.txt")
+
 # Set Variable Names
-names(train_Subjects) <- "subject"
-names(train_Y)        <- "activity"
+names(train_Subjects) <- "subject_id"
+names(train_Y)        <- "activity_cd"
 names(train_X)        <- features[,2]
 
-names(test_Subjects)  <- "subject"
-names(test_Y)         <- "activity"
+names(test_Subjects)  <- "subject_id"
+names(test_Y)         <- "activity_cd"
 names(test_X)         <- features[,2]
+
+names(activities)     <- c("activity_cd", "activity")
 
 # Merge All Frames Into Their Respective Frames
 train_set <- cbind(train_Subjects, train_Y, train_X)
@@ -90,7 +95,8 @@ rm(train_Subjects, train_Y, train_X, train_set,
 # ***********************************************************************************************************************
 # I use the grepl command to find the locations within the features names that contain mean() or std() as well as the 
 # subject & the activity
-Measurements_w_Mean <- UCI_HAR_Dataset[,grepl("subject|activity|[Mm][Ee][Aa][Nn]\\(\\)|[Ss][Tt][Dd]\\(\\)",names(UCI_HAR_Dataset))]
+Selected_Measurements <- UCI_HAR_Dataset[,grepl("subject_id|activity_cd|[Mm][Ee][Aa][Nn]\\(\\)|[Ss][Tt][Dd]\\(\\)",
+                                                names(UCI_HAR_Dataset))]
 
 # End Extract Only the Measurements on the Mean and Standard Deviation for Each Measurement
 
@@ -98,7 +104,8 @@ Measurements_w_Mean <- UCI_HAR_Dataset[,grepl("subject|activity|[Mm][Ee][Aa][Nn]
 # ***********************************************************************************************************************
 # (3) Use Descriptive Activity Names to Name the Activities in the Data Set
 # ***********************************************************************************************************************
-
+UCI_HAR_Dataset <- merge(UCI_HAR_Dataset[,c(1:ncol(UCI_HAR_Dataset))], activities, by="activity_cd")
+UCI_HAR_Dataset <- UCI_HAR_Dataset[, c(2, 1, ncol(UCI_HAR_Dataset), 3:(ncol(UCI_HAR_Dataset)-1))]
 
 # End Use Descriptive Activity Names to Name the Activities in the Data Set
 
