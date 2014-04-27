@@ -1,12 +1,12 @@
 ## Program     : Coursera Data Science - Getting & Cleaning Data Peer Assessment
 ## Written By  : Gabriel Mohanna
 ## Date Created: Apr 27, 2014
+## Narrative   : The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
+##               The goal is to prepare tidy data that can be used for later analysis.
 ## Background  : One of the most exciting areas in all of data science right now is wearable computing - see for example 
 ##               this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced 
 ##               algorithms to attract new users. The data linked to from the course website represent data collected 
 ##               from the accelerometers from the Samsung Galaxy S smartphone.
-## Narrative   : The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
-##               The goal is to prepare tidy data that can be used for later analysis.
 ## TBD         : 
 ##
 ## \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
