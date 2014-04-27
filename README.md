@@ -1,4 +1,4 @@
 GettingCleaningData
 ===================
 
-Coursera Data Science - Getting &amp; Cleaning Data Peer Assignment
+Coursera Data Science - Getting &amp; Cleaning Data Peer Assessment
