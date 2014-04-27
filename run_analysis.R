@@ -62,6 +62,7 @@ features       <- read.table("features.txt")
 activities     <- read.table("activity_labels.txt")
 
 # Set Variable Names
+# Please note: This is Q3 of the project.
 names(train_Subjects) <- "subject_id"
 names(train_Y)        <- "activity_cd"
 names(train_X)        <- features[,2]
@@ -104,8 +105,7 @@ Selected_Measurements <- UCI_HAR_Dataset[,grepl("subject_id|activity_cd|[Mm][Ee]
 # ***********************************************************************************************************************
 # (3) Use Descriptive Activity Names to Name the Activities in the Data Set
 # ***********************************************************************************************************************
-UCI_HAR_Dataset <- merge(UCI_HAR_Dataset[,c(1:ncol(UCI_HAR_Dataset))], activities, by="activity_cd")
-UCI_HAR_Dataset <- UCI_HAR_Dataset[, c(2, 1, ncol(UCI_HAR_Dataset), 3:(ncol(UCI_HAR_Dataset)-1))]
+# This step is already executed by naming the variables in step 1
 
 # End Use Descriptive Activity Names to Name the Activities in the Data Set
 
@@ -113,7 +113,8 @@ UCI_HAR_Dataset <- UCI_HAR_Dataset[, c(2, 1, ncol(UCI_HAR_Dataset), 3:(ncol(UCI_
 # ***********************************************************************************************************************
 # (4) Appropriately Label the Data Set with Descriptive Activity Names
 # ***********************************************************************************************************************
-
+UCI_HAR_Dataset <- merge(UCI_HAR_Dataset[,c(1:ncol(UCI_HAR_Dataset))], activities, by="activity_cd")
+UCI_HAR_Dataset <- UCI_HAR_Dataset[, c(2, 1, ncol(UCI_HAR_Dataset), 3:(ncol(UCI_HAR_Dataset)-1))]
 
 # End Appropriately Label the Data Set with Descriptive Activity Names
 
