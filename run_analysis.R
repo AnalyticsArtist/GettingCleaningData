@@ -89,7 +89,9 @@ rm(train_Subjects, train_Y, train_X, train_set,
 # ***********************************************************************************************************************
 # (2) Extract Only the Measurements on the Mean and Standard Deviation for Each Measurement
 # ***********************************************************************************************************************
-
+# I use the grepl command to find the locations within the features names that contain mean() or std() as well as the 
+# subject & the activity
+Measurements_w_Mean <- UCI_HAR_Dataset[,grepl("subject|activity|[Mm][Ee][Aa][Nn]\\(\\)|[Ss][Tt][Dd]\\(\\)",names(UCI_HAR_Dataset))]
 
 # End Extract Only the Measurements on the Mean and Standard Deviation for Each Measurement
 
