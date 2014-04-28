@@ -34,6 +34,8 @@
 # ***********************************************************************************************************************
 # Load Libraries
 library(data.table)
+library(reshape2)
+library(plyr)
 
 # Define Data Path
 data_path <- "/Users/gabrielm/OneDrive/Documents/HW/Coursera/Getting and Cleaning Data/Peer Assessment/UCI HAR Dataset"
@@ -86,7 +88,7 @@ dim(UCI_HAR_Dataset)
 
 # Remove Unused Data Frames to Conserve Memory
 rm(train_Subjects, train_Y, train_X, train_set,
-   test_Subjects , test_Y , test_X , test_set , features )
+   test_Subjects , test_Y , test_X , test_set  )
 
 # End Read & Merge the Training and the Test Sets to Create One Data Set
 
@@ -98,6 +100,7 @@ rm(train_Subjects, train_Y, train_X, train_set,
 # subject & the activity
 Selected_Measurements <- UCI_HAR_Dataset[,grepl("subject_id|activity_cd|[Mm][Ee][Aa][Nn]\\(\\)|[Ss][Tt][Dd]\\(\\)",
                                                 names(UCI_HAR_Dataset))]
+
 
 # End Extract Only the Measurements on the Mean and Standard Deviation for Each Measurement
 
@@ -122,6 +125,10 @@ UCI_HAR_Dataset <- UCI_HAR_Dataset[, c(2, 1, ncol(UCI_HAR_Dataset), 3:(ncol(UCI_
 # ***********************************************************************************************************************
 # (5) Create a Second, Independent Tidy Data Set with the Average of Each Variable for Each Activity and Each Subject
 # ***********************************************************************************************************************
-
+tidyList <- by(data=UCI_HAR_Dataset,INDICES=UCI_HAR_Dataset[,c("subject_id", "activity_cd")], FUN=colMeans,simplify=T)
+tidyData <- data.frame(matrix(unlist(tidyList), nrow=length(tidyList), byrow=T))
+names(tidyData) <- names(UCI_HAR_Dataset[,-3])
+tidyData <- merge(tidyData[,c(1:ncol(tidyData))], activities, by="activity_cd")
+tidyData <- tidyData[, c(2, 1, ncol(tidyData), 3:(ncol(tidyData)-1))]
 
 # End Create a Second, Independent Tidy Data Set with the Average of Each Variable for Each Activity and Each Subject
