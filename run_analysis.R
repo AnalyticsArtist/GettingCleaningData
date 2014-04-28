@@ -125,7 +125,10 @@ UCI_HAR_Dataset <- UCI_HAR_Dataset[, c(2, 1, ncol(UCI_HAR_Dataset), 3:(ncol(UCI_
 # ***********************************************************************************************************************
 # (5) Create a Second, Independent Tidy Data Set with the Average of Each Variable for Each Activity and Each Subject
 # ***********************************************************************************************************************
-tidyList <- by(data=UCI_HAR_Dataset,INDICES=UCI_HAR_Dataset[,c("subject_id", "activity_cd")], FUN=colMeans,simplify=T)
+# Use the "by" function in combination with "colMean: function. Remove the activity column since it's not numeric.
+# Save the list output of the "by" function as a data frame and set the names accordingly. Finally, remerge with 
+# feature names and reorder columns.
+tidyList <- by(data=UCI_HAR_Dataset[,-3],INDICES=UCI_HAR_Dataset[,c("subject_id", "activity_cd")], FUN=colMeans,simplify=T)
 tidyData <- data.frame(matrix(unlist(tidyList), nrow=length(tidyList), byrow=T))
 names(tidyData) <- names(UCI_HAR_Dataset[,-3])
 tidyData <- merge(tidyData[,c(1:ncol(tidyData))], activities, by="activity_cd")
