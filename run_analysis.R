@@ -116,7 +116,7 @@ write.csv(x=Selected_Measurements, file="Selected Measurements.csv")
 # ***********************************************************************************************************************
 # (3) Use Descriptive Activity Names to Name the Activities in the Data Set
 # ***********************************************************************************************************************
-# This step is already executed by naming the variables in step 1
+# This step is already executed by naming the variables in step 1 line 73
 
 # End Use Descriptive Activity Names to Name the Activities in the Data Set
 
