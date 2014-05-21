@@ -60,9 +60,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tGravityAcc-std()-X:  Standard deviation of tGravityAcc for X
 * tGravityAcc-std()-Y:  Standard deviation of tGravityAcc for Y
 * tGravityAcc-std()-Z:  Standard deviation of tGravityAcc for Z
-* tGravityAcc-mad()-X:  Median absolute deviation  of tGravityAcc for X
-* tGravityAcc-mad()-Y:  Median absolute deviation  of tGravityAcc for Y
-* tGravityAcc-mad()-Z:  Median absolute deviation  of tGravityAcc for Z
+* tGravityAcc-mad()-X:  Median absolute deviation of tGravityAcc for X
+* tGravityAcc-mad()-Y:  Median absolute deviation of tGravityAcc for Y
+* tGravityAcc-mad()-Z:  Median absolute deviation of tGravityAcc for Z
 * tGravityAcc-max()-X:  Largest value in array of tGravityAcc for X
 * tGravityAcc-max()-Y:  Largest value in array of tGravityAcc for Y
 * tGravityAcc-max()-Z:  Largest value in array of tGravityAcc for Z
@@ -73,9 +73,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tGravityAcc-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tGravityAcc for X
 * tGravityAcc-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tGravityAcc for Y
 * tGravityAcc-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tGravityAcc for Z
-* tGravityAcc-iqr()-X:  Interquartile range  of tGravityAcc for X
-* tGravityAcc-iqr()-Y:  Interquartile range  of tGravityAcc for Y
-* tGravityAcc-iqr()-Z:  Interquartile range  of tGravityAcc for Z
+* tGravityAcc-iqr()-X:  Interquartile range of tGravityAcc for X
+* tGravityAcc-iqr()-Y:  Interquartile range of tGravityAcc for Y
+* tGravityAcc-iqr()-Z:  Interquartile range of tGravityAcc for Z
 * tGravityAcc-entropy()-X:  Signal entropy of tGravityAcc for X
 * tGravityAcc-entropy()-Y:  Signal entropy of tGravityAcc for Y
 * tGravityAcc-entropy()-Z:  Signal entropy of tGravityAcc for Z
@@ -100,9 +100,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyAccJerk-std()-X:  Standard deviation of tBodyAccJerk for X
 * tBodyAccJerk-std()-Y:  Standard deviation of tBodyAccJerk for Y
 * tBodyAccJerk-std()-Z:  Standard deviation of tBodyAccJerk for Z
-* tBodyAccJerk-mad()-X:  Median absolute deviation  of tBodyAccJerk for X
-* tBodyAccJerk-mad()-Y:  Median absolute deviation  of tBodyAccJerk for Y
-* tBodyAccJerk-mad()-Z:  Median absolute deviation  of tBodyAccJerk for Z
+* tBodyAccJerk-mad()-X:  Median absolute deviation of tBodyAccJerk for X
+* tBodyAccJerk-mad()-Y:  Median absolute deviation of tBodyAccJerk for Y
+* tBodyAccJerk-mad()-Z:  Median absolute deviation of tBodyAccJerk for Z
 * tBodyAccJerk-max()-X:  Largest value in array of tBodyAccJerk for X
 * tBodyAccJerk-max()-Y:  Largest value in array of tBodyAccJerk for Y
 * tBodyAccJerk-max()-Z:  Largest value in array of tBodyAccJerk for Z
@@ -113,9 +113,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyAccJerk-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerk for X
 * tBodyAccJerk-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerk for Y
 * tBodyAccJerk-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerk for Z
-* tBodyAccJerk-iqr()-X:  Interquartile range  of tBodyAccJerk for X
-* tBodyAccJerk-iqr()-Y:  Interquartile range  of tBodyAccJerk for Y
-* tBodyAccJerk-iqr()-Z:  Interquartile range  of tBodyAccJerk for Z
+* tBodyAccJerk-iqr()-X:  Interquartile range of tBodyAccJerk for X
+* tBodyAccJerk-iqr()-Y:  Interquartile range of tBodyAccJerk for Y
+* tBodyAccJerk-iqr()-Z:  Interquartile range of tBodyAccJerk for Z
 * tBodyAccJerk-entropy()-X:  Signal entropy of tBodyAccJerk for X
 * tBodyAccJerk-entropy()-Y:  Signal entropy of tBodyAccJerk for Y
 * tBodyAccJerk-entropy()-Z:  Signal entropy of tBodyAccJerk for Z
@@ -149,13 +149,13 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyGyro-min()-X:  Smallest value in array of tBodyGyro for X
 * tBodyGyro-min()-Y:  Smallest value in array of tBodyGyro for Y
 * tBodyGyro-min()-Z:  Smallest value in array of tBodyGyro for Z
-* tBodyGyro-sma():  Signal magnitude area of tBodyGyro for 
+* tBodyGyro-sma():  Signal magnitude area of tBodyGyro 
 * tBodyGyro-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyro for X
 * tBodyGyro-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyro for Y
 * tBodyGyro-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyro for Z
-* tBodyGyro-iqr()-X:  Interquartile range  of tBodyGyro for X
-* tBodyGyro-iqr()-Y:  Interquartile range  of tBodyGyro for Y
-* tBodyGyro-iqr()-Z:  Interquartile range  of tBodyGyro for Z
+* tBodyGyro-iqr()-X:  Interquartile range of tBodyGyro for X
+* tBodyGyro-iqr()-Y:  Interquartile range of tBodyGyro for Y
+* tBodyGyro-iqr()-Z:  Interquartile range of tBodyGyro for Z
 * tBodyGyro-entropy()-X:  Signal entropy of tBodyGyro for X
 * tBodyGyro-entropy()-Y:  Signal entropy of tBodyGyro for Y
 * tBodyGyro-entropy()-Z:  Signal entropy of tBodyGyro for Z
@@ -180,9 +180,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyGyroJerk-std()-X:  Standard deviation of tBodyGyroJerk for X
 * tBodyGyroJerk-std()-Y:  Standard deviation of tBodyGyroJerk for Y
 * tBodyGyroJerk-std()-Z:  Standard deviation of tBodyGyroJerk for Z
-* tBodyGyroJerk-mad()-X:  Median absolute deviation  of tBodyGyroJerk for X
-* tBodyGyroJerk-mad()-Y:  Median absolute deviation  of tBodyGyroJerk for Y
-* tBodyGyroJerk-mad()-Z:  Median absolute deviation  of tBodyGyroJerk for Z
+* tBodyGyroJerk-mad()-X:  Median absolute deviation of tBodyGyroJerk for X
+* tBodyGyroJerk-mad()-Y:  Median absolute deviation of tBodyGyroJerk for Y
+* tBodyGyroJerk-mad()-Z:  Median absolute deviation of tBodyGyroJerk for Z
 * tBodyGyroJerk-max()-X:  Largest value in array of tBodyGyroJerk for X
 * tBodyGyroJerk-max()-Y:  Largest value in array of tBodyGyroJerk for Y
 * tBodyGyroJerk-max()-Z:  Largest value in array of tBodyGyroJerk for Z
@@ -193,9 +193,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyGyroJerk-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerk for X
 * tBodyGyroJerk-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerk for Y
 * tBodyGyroJerk-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerk for Z
-* tBodyGyroJerk-iqr()-X:  Interquartile range  of tBodyGyroJerk for X
-* tBodyGyroJerk-iqr()-Y:  Interquartile range  of tBodyGyroJerk for Y
-* tBodyGyroJerk-iqr()-Z:  Interquartile range  of tBodyGyroJerk for Z
+* tBodyGyroJerk-iqr()-X:  Interquartile range of tBodyGyroJerk for X
+* tBodyGyroJerk-iqr()-Y:  Interquartile range of tBodyGyroJerk for Y
+* tBodyGyroJerk-iqr()-Z:  Interquartile range of tBodyGyroJerk for Z
 * tBodyGyroJerk-entropy()-X:  Signal entropy of tBodyGyroJerk for X
 * tBodyGyroJerk-entropy()-Y:  Signal entropy of tBodyGyroJerk for Y
 * tBodyGyroJerk-entropy()-Z:  Signal entropy of tBodyGyroJerk for Z
@@ -214,67 +214,67 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyGyroJerk-correlation()-X,Y:  correlation coefficient between two signals of tBodyGyroJerk for X,Y
 * tBodyGyroJerk-correlation()-X,Z:  correlation coefficient between two signals of tBodyGyroJerk for X,Z
 * tBodyGyroJerk-correlation()-Y,Z:  correlation coefficient between two signals of tBodyGyroJerk for Y,Z
-* tBodyAccMag-mean():  Mean value of tBodyAccMag for 
-* tBodyAccMag-std():  Standard deviation of tBodyAccMag for 
-* tBodyAccMag-mad():  Median absolute deviation  of tBodyAccMag for 
-* tBodyAccMag-max():  Largest value in array of tBodyAccMag for 
-* tBodyAccMag-min():  Smallest value in array of tBodyAccMag for 
-* tBodyAccMag-sma():  Signal magnitude area of tBodyAccMag for 
-* tBodyAccMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccMag for 
-* tBodyAccMag-iqr():  Interquartile range  of tBodyAccMag for 
-* tBodyAccMag-entropy():  Signal entropy of tBodyAccMag for 
+* tBodyAccMag-mean():  Mean value of tBodyAccMag 
+* tBodyAccMag-std():  Standard deviation of tBodyAccMag 
+* tBodyAccMag-mad():  Median absolute deviation  of tBodyAccMag 
+* tBodyAccMag-max():  Largest value in array of tBodyAccMag 
+* tBodyAccMag-min():  Smallest value in array of tBodyAccMag 
+* tBodyAccMag-sma():  Signal magnitude area of tBodyAccMag 
+* tBodyAccMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccMag 
+* tBodyAccMag-iqr():  Interquartile range  of tBodyAccMag 
+* tBodyAccMag-entropy():  Signal entropy of tBodyAccMag 
 * tBodyAccMag-arCoeff()1:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccMag for 1
 * tBodyAccMag-arCoeff()2:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccMag for 2
 * tBodyAccMag-arCoeff()3:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccMag for 3
 * tBodyAccMag-arCoeff()4:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccMag for 4
-* tGravityAccMag-mean():  Mean value of tGravityAccMag for 
-* tGravityAccMag-std():  Standard deviation of tGravityAccMag for 
-* tGravityAccMag-mad():  Median absolute deviation  of tGravityAccMag for 
-* tGravityAccMag-max():  Largest value in array of tGravityAccMag for 
-* tGravityAccMag-min():  Smallest value in array of tGravityAccMag for 
-* tGravityAccMag-sma():  Signal magnitude area of tGravityAccMag for 
-* tGravityAccMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tGravityAccMag for 
-* tGravityAccMag-iqr():  Interquartile range  of tGravityAccMag for 
-* tGravityAccMag-entropy():  Signal entropy of tGravityAccMag for 
+* tGravityAccMag-mean():  Mean value of tGravityAccMag 
+* tGravityAccMag-std():  Standard deviation of tGravityAccMag 
+* tGravityAccMag-mad():  Median absolute deviation  of tGravityAccMag 
+* tGravityAccMag-max():  Largest value in array of tGravityAccMag 
+* tGravityAccMag-min():  Smallest value in array of tGravityAccMag 
+* tGravityAccMag-sma():  Signal magnitude area of tGravityAccMag 
+* tGravityAccMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tGravityAccMag 
+* tGravityAccMag-iqr():  Interquartile range  of tGravityAccMag 
+* tGravityAccMag-entropy():  Signal entropy of tGravityAccMag 
 * tGravityAccMag-arCoeff()1:  Autorregresion coefficients with Burg order equal to 4 of tGravityAccMag for 1
 * tGravityAccMag-arCoeff()2:  Autorregresion coefficients with Burg order equal to 4 of tGravityAccMag for 2
 * tGravityAccMag-arCoeff()3:  Autorregresion coefficients with Burg order equal to 4 of tGravityAccMag for 3
 * tGravityAccMag-arCoeff()4:  Autorregresion coefficients with Burg order equal to 4 of tGravityAccMag for 4
-* tBodyAccJerkMag-mean():  Mean value of tBodyAccJerkMag for 
-* tBodyAccJerkMag-std():  Standard deviation of tBodyAccJerkMag for 
-* tBodyAccJerkMag-mad():  Median absolute deviation  of tBodyAccJerkMag for 
-* tBodyAccJerkMag-max():  Largest value in array of tBodyAccJerkMag for 
-* tBodyAccJerkMag-min():  Smallest value in array of tBodyAccJerkMag for 
-* tBodyAccJerkMag-sma():  Signal magnitude area of tBodyAccJerkMag for 
-* tBodyAccJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerkMag for 
-* tBodyAccJerkMag-iqr():  Interquartile range  of tBodyAccJerkMag for 
-* tBodyAccJerkMag-entropy():  Signal entropy of tBodyAccJerkMag for 
+* tBodyAccJerkMag-mean():  Mean value of tBodyAccJerkMag 
+* tBodyAccJerkMag-std():  Standard deviation of tBodyAccJerkMag 
+* tBodyAccJerkMag-mad():  Median absolute deviation  of tBodyAccJerkMag 
+* tBodyAccJerkMag-max():  Largest value in array of tBodyAccJerkMag 
+* tBodyAccJerkMag-min():  Smallest value in array of tBodyAccJerkMag 
+* tBodyAccJerkMag-sma():  Signal magnitude area of tBodyAccJerkMag 
+* tBodyAccJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerkMag 
+* tBodyAccJerkMag-iqr():  Interquartile range  of tBodyAccJerkMag 
+* tBodyAccJerkMag-entropy():  Signal entropy of tBodyAccJerkMag 
 * tBodyAccJerkMag-arCoeff()1:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccJerkMag for 1
 * tBodyAccJerkMag-arCoeff()2:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccJerkMag for 2
 * tBodyAccJerkMag-arCoeff()3:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccJerkMag for 3
 * tBodyAccJerkMag-arCoeff()4:  Autorregresion coefficients with Burg order equal to 4 of tBodyAccJerkMag for 4
-* tBodyGyroMag-mean():  Mean value of tBodyGyroMag for 
-* tBodyGyroMag-std():  Standard deviation of tBodyGyroMag for 
-* tBodyGyroMag-mad():  Median absolute deviation  of tBodyGyroMag for 
-* tBodyGyroMag-max():  Largest value in array of tBodyGyroMag for 
-* tBodyGyroMag-min():  Smallest value in array of tBodyGyroMag for 
-* tBodyGyroMag-sma():  Signal magnitude area of tBodyGyroMag for 
-* tBodyGyroMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroMag for 
-* tBodyGyroMag-iqr():  Interquartile range  of tBodyGyroMag for 
-* tBodyGyroMag-entropy():  Signal entropy of tBodyGyroMag for 
+* tBodyGyroMag-mean():  Mean value of tBodyGyroMag 
+* tBodyGyroMag-std():  Standard deviation of tBodyGyroMag 
+* tBodyGyroMag-mad():  Median absolute deviation  of tBodyGyroMag 
+* tBodyGyroMag-max():  Largest value in array of tBodyGyroMag 
+* tBodyGyroMag-min():  Smallest value in array of tBodyGyroMag 
+* tBodyGyroMag-sma():  Signal magnitude area of tBodyGyroMag 
+* tBodyGyroMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroMag 
+* tBodyGyroMag-iqr():  Interquartile range  of tBodyGyroMag 
+* tBodyGyroMag-entropy():  Signal entropy of tBodyGyroMag 
 * tBodyGyroMag-arCoeff()1:  Autorregresion coefficients with Burg order equal to 4 of tBodyGyroMag for 1
 * tBodyGyroMag-arCoeff()2:  Autorregresion coefficients with Burg order equal to 4 of tBodyGyroMag for 2
 * tBodyGyroMag-arCoeff()3:  Autorregresion coefficients with Burg order equal to 4 of tBodyGyroMag for 3
 * tBodyGyroMag-arCoeff()4:  Autorregresion coefficients with Burg order equal to 4 of tBodyGyroMag for 4
-* tBodyGyroJerkMag-mean():  Mean value of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-std():  Standard deviation of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-mad():  Median absolute deviation  of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-max():  Largest value in array of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-min():  Smallest value in array of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-sma():  Signal magnitude area of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-iqr():  Interquartile range  of tBodyGyroJerkMag for 
-* tBodyGyroJerkMag-entropy():  Signal entropy of tBodyGyroJerkMag for 
+* tBodyGyroJerkMag-mean():  Mean value of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-std():  Standard deviation of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-mad():  Median absolute deviation  of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-max():  Largest value in array of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-min():  Smallest value in array of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-sma():  Signal magnitude area of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-iqr():  Interquartile range  of tBodyGyroJerkMag 
+* tBodyGyroJerkMag-entropy():  Signal entropy of tBodyGyroJerkMag 
 * tBodyGyroJerkMag-arCoeff()1:  Autorregresion coefficients with Burg order equal to 4 of tBodyGyroJerkMag for 1
 * tBodyGyroJerkMag-arCoeff()2:  Autorregresion coefficients with Burg order equal to 4 of tBodyGyroJerkMag for 2
 * tBodyGyroJerkMag-arCoeff()3:  Autorregresion coefficients with Burg order equal to 4 of tBodyGyroJerkMag for 3
@@ -294,7 +294,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 * fBodyAcc-min()-X:  Smallest value in array of fBodyAcc for X
 * fBodyAcc-min()-Y:  Smallest value in array of fBodyAcc for Y
 * fBodyAcc-min()-Z:  Smallest value in array of fBodyAcc for Z
-* fBodyAcc-sma():  Signal magnitude area of fBodyAcc for 
+* fBodyAcc-sma():  Signal magnitude area of fBodyAcc 
 * fBodyAcc-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of fBodyAcc for X
 * fBodyAcc-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of fBodyAcc for Y
 * fBodyAcc-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of fBodyAcc for Z
@@ -373,7 +373,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 * fBodyAccJerk-min()-X:  Smallest value in array of fBodyAccJerk for X
 * fBodyAccJerk-min()-Y:  Smallest value in array of fBodyAccJerk for Y
 * fBodyAccJerk-min()-Z:  Smallest value in array of fBodyAccJerk for Z
-* fBodyAccJerk-sma():  Signal magnitude area of fBodyAccJerk for 
+* fBodyAccJerk-sma():  Signal magnitude area of fBodyAccJerk 
 * fBodyAccJerk-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of fBodyAccJerk for X
 * fBodyAccJerk-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of fBodyAccJerk for Y
 * fBodyAccJerk-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of fBodyAccJerk for Z
@@ -452,7 +452,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 * fBodyGyro-min()-X:  Smallest value in array of fBodyGyro for X
 * fBodyGyro-min()-Y:  Smallest value in array of fBodyGyro for Y
 * fBodyGyro-min()-Z:  Smallest value in array of fBodyGyro for Z
-* fBodyGyro-sma():  Signal magnitude area of fBodyGyro for 
+* fBodyGyro-sma():  Signal magnitude area of fBodyGyro 
 * fBodyGyro-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of fBodyGyro for X
 * fBodyGyro-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of fBodyGyro for Y
 * fBodyGyro-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of fBodyGyro for Z
@@ -516,62 +516,62 @@ One of the most exciting areas in all of data science right now is wearable comp
 * fBodyGyro-bandsEnergy()-49,64:  Energy of a frequency interval within the 64 bins of the FFT of each window. of fBodyGyro for 49,64
 * fBodyGyro-bandsEnergy()-1,24:  Energy of a frequency interval within the 64 bins of the FFT of each window. of fBodyGyro for 1,24
 * fBodyGyro-bandsEnergy()-25,48:  Energy of a frequency interval within the 64 bins of the FFT of each window. of fBodyGyro for 25,48
-* fBodyAccMag-mean():  Mean value of fBodyAccMag for 
-* fBodyAccMag-std():  Standard deviation of fBodyAccMag for 
-* fBodyAccMag-mad():  Median absolute deviation  of fBodyAccMag for 
-* fBodyAccMag-max():  Largest value in array of fBodyAccMag for 
-* fBodyAccMag-min():  Smallest value in array of fBodyAccMag for 
-* fBodyAccMag-sma():  Signal magnitude area of fBodyAccMag for 
-* fBodyAccMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyAccMag for 
-* fBodyAccMag-iqr():  Interquartile range  of fBodyAccMag for 
-* fBodyAccMag-entropy():  Signal entropy of fBodyAccMag for 
-* fBodyAccMag-maxInds:  index of the frequency component with largest magnitude of fBodyAccMag for 
-* fBodyAccMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyAccMag for 
-* fBodyAccMag-skewness():  skewness of the frequency domain signal  of fBodyAccMag for 
-* fBodyAccMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyAccMag for 
-* fBodyBodyAccJerkMag-mean():  Mean value of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-std():  Standard deviation of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-mad():  Median absolute deviation  of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-max():  Largest value in array of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-min():  Smallest value in array of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-sma():  Signal magnitude area of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-iqr():  Interquartile range  of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-entropy():  Signal entropy of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-maxInds:  index of the frequency component with largest magnitude of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-skewness():  skewness of the frequency domain signal  of fBodyBodyAccJerkMag for 
-* fBodyBodyAccJerkMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyBodyAccJerkMag for 
-* fBodyBodyGyroMag-mean():  Mean value of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-std():  Standard deviation of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-mad():  Median absolute deviation  of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-max():  Largest value in array of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-min():  Smallest value in array of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-sma():  Signal magnitude area of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-iqr():  Interquartile range  of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-entropy():  Signal entropy of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-maxInds:  index of the frequency component with largest magnitude of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-skewness():  skewness of the frequency domain signal  of fBodyBodyGyroMag for 
-* fBodyBodyGyroMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyBodyGyroMag for 
-* fBodyBodyGyroJerkMag-mean():  Mean value of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-std():  Standard deviation of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-mad():  Median absolute deviation  of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-max():  Largest value in array of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-min():  Smallest value in array of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-sma():  Signal magnitude area of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-iqr():  Interquartile range  of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-entropy():  Signal entropy of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-maxInds:  index of the frequency component with largest magnitude of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-skewness():  skewness of the frequency domain signal  of fBodyBodyGyroJerkMag for 
-* fBodyBodyGyroJerkMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyBodyGyroJerkMag for 
+* fBodyAccMag-mean():  Mean value of fBodyAccMag 
+* fBodyAccMag-std():  Standard deviation of fBodyAccMag 
+* fBodyAccMag-mad():  Median absolute deviation  of fBodyAccMag 
+* fBodyAccMag-max():  Largest value in array of fBodyAccMag 
+* fBodyAccMag-min():  Smallest value in array of fBodyAccMag 
+* fBodyAccMag-sma():  Signal magnitude area of fBodyAccMag 
+* fBodyAccMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyAccMag 
+* fBodyAccMag-iqr():  Interquartile range  of fBodyAccMag 
+* fBodyAccMag-entropy():  Signal entropy of fBodyAccMag 
+* fBodyAccMag-maxInds:  index of the frequency component with largest magnitude of fBodyAccMag 
+* fBodyAccMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyAccMag 
+* fBodyAccMag-skewness():  skewness of the frequency domain signal  of fBodyAccMag 
+* fBodyAccMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyAccMag 
+* fBodyBodyAccJerkMag-mean():  Mean value of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-std():  Standard deviation of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-mad():  Median absolute deviation  of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-max():  Largest value in array of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-min():  Smallest value in array of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-sma():  Signal magnitude area of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-iqr():  Interquartile range  of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-entropy():  Signal entropy of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-maxInds:  index of the frequency component with largest magnitude of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-skewness():  skewness of the frequency domain signal  of fBodyBodyAccJerkMag 
+* fBodyBodyAccJerkMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyBodyAccJerkMag 
+* fBodyBodyGyroMag-mean():  Mean value of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-std():  Standard deviation of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-mad():  Median absolute deviation  of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-max():  Largest value in array of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-min():  Smallest value in array of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-sma():  Signal magnitude area of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-iqr():  Interquartile range  of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-entropy():  Signal entropy of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-maxInds:  index of the frequency component with largest magnitude of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-skewness():  skewness of the frequency domain signal  of fBodyBodyGyroMag 
+* fBodyBodyGyroMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyBodyGyroMag 
+* fBodyBodyGyroJerkMag-mean():  Mean value of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-std():  Standard deviation of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-mad():  Median absolute deviation  of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-max():  Largest value in array of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-min():  Smallest value in array of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-sma():  Signal magnitude area of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-energy():  Energy measure. Sum of the squares divided by the number of values.  of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-iqr():  Interquartile range  of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-entropy():  Signal entropy of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-maxInds:  index of the frequency component with largest magnitude of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-meanFreq():  Weighted average of the frequency components to obtain a mean frequency of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-skewness():  skewness of the frequency domain signal  of fBodyBodyGyroJerkMag 
+* fBodyBodyGyroJerkMag-kurtosis():  kurtosis of the frequency domain signal  of fBodyBodyGyroJerkMag 
 * angle(tBodyAccMean,gravity): angle(tBodyAccMean,gravity)
 * angle(tBodyAccJerkMean),gravityMean): angle(tBodyAccJerkMean),gravityMean)
 * angle(tBodyGyroMean,gravityMean): angle(tBodyGyroMean,gravityMean)
 * angle(tBodyGyroJerkMean,gravityMean): angle(tBodyGyroJerkMean,gravityMean)
 * angle(X,gravityMean): angle(X,gravityMean)
 * angle(Y,gravityMean): angle(Y,gravityMean)
-* angle(Z,gravityMean): angle(Z,gravityMean)  
+* angle(Z,gravityMean): angle(Z,gravityMean)
