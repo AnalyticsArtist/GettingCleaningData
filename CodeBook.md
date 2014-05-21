@@ -29,7 +29,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyAcc-min()-X:  Smallest value in array of tBodyAcc for X
 * tBodyAcc-min()-Y:  Smallest value in array of tBodyAcc for Y
 * tBodyAcc-min()-Z:  Smallest value in array of tBodyAcc for Z
-* tBodyAcc-sma():  Signal magnitude area of tBodyAcc for 
+* tBodyAcc-sma():  Signal magnitude area of tBodyAcc 
 * tBodyAcc-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAcc for X
 * tBodyAcc-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAcc for Y
 * tBodyAcc-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAcc for Z
@@ -69,7 +69,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tGravityAcc-min()-X:  Smallest value in array of tGravityAcc for X
 * tGravityAcc-min()-Y:  Smallest value in array of tGravityAcc for Y
 * tGravityAcc-min()-Z:  Smallest value in array of tGravityAcc for Z
-* tGravityAcc-sma():  Signal magnitude area of tGravityAcc for 
+* tGravityAcc-sma():  Signal magnitude area of tGravityAcc 
 * tGravityAcc-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tGravityAcc for X
 * tGravityAcc-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tGravityAcc for Y
 * tGravityAcc-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tGravityAcc for Z
@@ -109,7 +109,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyAccJerk-min()-X:  Smallest value in array of tBodyAccJerk for X
 * tBodyAccJerk-min()-Y:  Smallest value in array of tBodyAccJerk for Y
 * tBodyAccJerk-min()-Z:  Smallest value in array of tBodyAccJerk for Z
-* tBodyAccJerk-sma():  Signal magnitude area of tBodyAccJerk for 
+* tBodyAccJerk-sma():  Signal magnitude area of tBodyAccJerk 
 * tBodyAccJerk-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerk for X
 * tBodyAccJerk-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerk for Y
 * tBodyAccJerk-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tBodyAccJerk for Z
@@ -189,7 +189,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 * tBodyGyroJerk-min()-X:  Smallest value in array of tBodyGyroJerk for X
 * tBodyGyroJerk-min()-Y:  Smallest value in array of tBodyGyroJerk for Y
 * tBodyGyroJerk-min()-Z:  Smallest value in array of tBodyGyroJerk for Z
-* tBodyGyroJerk-sma():  Signal magnitude area of tBodyGyroJerk for 
+* tBodyGyroJerk-sma():  Signal magnitude area of tBodyGyroJerk 
 * tBodyGyroJerk-energy()-X:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerk for X
 * tBodyGyroJerk-energy()-Y:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerk for Y
 * tBodyGyroJerk-energy()-Z:  Energy measure. Sum of the squares divided by the number of values.  of tBodyGyroJerk for Z
