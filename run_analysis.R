@@ -138,6 +138,6 @@ tidyData <- aggregate(x=UCI_HAR_Dataset[4:ncol(UCI_HAR_Dataset)],
                       FUN=mean, na.rm=T)
 tidyData <- arrange(tidyData, activity_cd, activity, subject_id)
 
-write.table(x=tidyData, file="tidyData.txt")
+write.table(x=tidyData, file="tidyData.txt", row.names=F)
 
 # End Create a Second, Independent Tidy Data Set with the Average of Each Variable for Each Activity and Each Subject
