@@ -1,4 +1,4 @@
-#Coursera Data Science - Getting & Cleaning Data Peer Assessment Code Book
+Coursera Data Science - Getting & Cleaning Data Peer Assessment Code Book
 =========================================================================
 
 **Narrative**
@@ -8,6 +8,16 @@ The purpose of this project is to demonstrate your ability to collect, work with
 **Background**
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example  this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced  algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+
+**Analysis Steps**
+
+* Load Libraries & Define Data Path
+* Merge the Training and the Test Sets to Create One Data Set
+* Extract Only the Measurements on the Mean and Standard Deviation for Each Measurement
+* Use Descriptive Activity Names to Name the Activities in the Data Set
+* Appropriately Label the Data Set with Descriptive Activity Names
+* Create a Second, Independent Tidy Data Set with the Average of Each Variable for Each Activity and Each Subject
+
 
 **Variable Descriptions**
 
